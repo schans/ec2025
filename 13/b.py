@@ -16,7 +16,6 @@ for line in fileinput.input():
 
     (s, e) = (int(x) for x in ll.split("-"))
 
-    print(s, e)
     for x in range(s, e + 1):
         if right:
             D.append(x)
